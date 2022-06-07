@@ -37,4 +37,3 @@ sudo snap install code --classic  - установить программу vsco
 (snap - установщик пакетов)
 
 ssh-keygen - создает ключ ssh в корневой папке
-
