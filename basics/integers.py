@@ -55,3 +55,4 @@ from math import sqrt
 sqrt(36) # 6
 8 ** (1/3) # 2
 # функция int - меняет тип данных на integer
+

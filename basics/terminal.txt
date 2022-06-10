@@ -40,3 +40,4 @@ ssh-keygen - создает ключ ssh в корневой папке
 
 echo "message" > test.txt - пишет message внутри файла test.txt
 cat test1.txt > test2.txt - копирует содержимое test1.txt в test2.txt
+mv test1.txt test2.txt - переименовывает название папки или файла 
