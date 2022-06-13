@@ -24,7 +24,23 @@
 5 >= 5 # True
 
 '5' == 5 # False
-"===========Тип данных boolean"
+
+"===========And, Or, Not============"
+# and - и
+# or - или
+a = 5
+b = 6
+a == 5 and b == 6 # True (both sides are true)
+a == 5 and b == 5 # False (one of the sides is false)
+a == 5 or b == 5 # True (at least one side is true)
+a == 4 or b == 5 # False (both sides are false)
+
+not True # False
+not False # True
+not a == 5 # False (cuz a = 5)
+not a == 4 # True (cuz a = 5)
+
+"===========Тип данных boolean==========="
 bool(1) # True
 bool(0) # False
 bool(-2) # True
@@ -112,3 +128,12 @@ for a in range(1,101):
 for i in range(1, 101):
     print(i)
 # цикл for - числа от 1 до 100
+
+"==============Тернарные операторы==============="
+# условие в одну строчку
+тело1 if условие else тело2
+
+res = 'Hello' if a == 5 else 'Bye'
+print(res)
+# Hello если a == 5
+# Bye если a != 5
